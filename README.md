@@ -1,42 +1,62 @@
-Project Overview
+# IT Support KPI Scorecard – Power BI Dashboard
 
-This project is a Power BI dashboard created to analyze IT support ticket data and evaluate support performance using a KPI scorecard. The dashboard helps in understanding support workload, ticket urgency, and department wise performance in a clear and simple way.
+## Overview
 
-The main purpose of this project is to compare actual support activity with defined targets and highlight areas that require attention using traffic light indicators.
+This project is a Power BI dashboard created to analyze IT support ticket data and evaluate support performance using a KPI scorecard. The dashboard focuses on support workload, ticket urgency, and department wise performance.
 
-Dashboard Description
+The main idea of this project is to transform raw ticket data into clear KPIs and compare actual performance against defined targets using simple traffic light indicators.
 
-The dashboard displays key IT support metrics such as total tickets, percentage of high priority tickets, ticket distribution by department, and priority mix. Users can interact with the dashboard by selecting departments to see how performance changes across different teams.
+##Why This Project
 
-Ticket volume targets automatically adjust based on the selected departments. This ensures that KPI results remain meaningful whether one department or all departments are selected.
+In IT support environments, raw ticket data alone does not clearly show whether teams are performing well or facing capacity issues. This dashboard helps convert ticket data into meaningful KPIs so performance can be monitored easily at both department and organization level.
 
-KPIs Included
-Total Tickets
+The project also demonstrates how KPI targets can change dynamically based on the selected departments, ensuring fair and meaningful evaluation.
 
-This KPI shows the total number of support tickets for the selected departments on a fiscal year basis. The target scales dynamically depending on how many departments are selected.
+## What the Dashboard Shows
 
-High Priority Tickets Percentage
+- Total number of support tickets
 
-This KPI shows the percentage of tickets marked as high priority. Fixed thresholds are used to identify normal, warning, and critical urgency levels.
+- Percentage of high priority tickets
 
-KPI Status Logic
+- Ticket distribution by department
 
-Green means performance is within the defined target.
-Yellow means performance is close to the target and should be monitored.
-Red means performance is above acceptable limits and needs attention.
+- Ticket priority mix
 
-Traffic light indicators are used throughout the dashboard to make performance status easy to understand at a glance.
+- KPI status using green, yellow, and red indicators
 
-Data Source
+Ticket volume targets automatically scale based on the selected departments, so KPI results remain meaningful whether one department or all departments are selected.
 
-The dashboard uses a publicly available IT support ticket dataset sourced from Kaggle. The data was cleaned and prepared to simulate real world IT support reporting. No confidential or company specific data is used.
+## Data Used
 
-Tools Used
+- IT Support Ticket dataset
 
-Power BI for data modeling and visualization
-DAX for KPI calculations and dynamic target logic
-CSV file as the data source
+- Format: CSV
 
-Purpose of This Project
+- Public dataset sourced from Kaggle
 
-This project was created for learning and portfolio purposes. It demonstrates the ability to design KPI scorecards, apply dynamic target logic, and communicate insights clearly using Power BI.
+- Includes ticket priority, department, and support request details
+
+## Tools
+
+- Power BI
+
+- Power Query for data cleaning and preparation
+
+- DAX for KPI calculations, dynamic targets, and status logic
+
+## Repository Contents
+
+- IT_Support_KPI_Scorecard.pbix – Power BI dashboard file
+
+- IT_Support_Ticket_Data.csv – Source dataset
+
+- screenshots/ – Images of the dashboard
+
+## Notes
+
+This dashboard was created as a personal learning and portfolio project using a publicly available dataset. All KPIs, targets, and thresholds are illustrative and do not represent real company performance. No confidential or proprietary data is used.
+
+## Author
+
+Rizwan Iftikhar
+Power BI Analyst
