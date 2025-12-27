@@ -6,7 +6,7 @@ This project is a Power BI dashboard created to analyze IT support ticket data a
 
 The main idea of this project is to transform raw ticket data into clear KPIs and compare actual performance against defined targets using simple traffic light indicators.
 
-##Why This Project
+## Why This Project
 
 In IT support environments, raw ticket data alone does not clearly show whether teams are performing well or facing capacity issues. This dashboard helps convert ticket data into meaningful KPIs so performance can be monitored easily at both department and organization level.
 
